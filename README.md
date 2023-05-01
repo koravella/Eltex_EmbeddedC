@@ -23,4 +23,8 @@ Tasks for Eltex course on Embedded C.
 * [lecture10]
     1. Implement the byte-by-byte output of the number (from low byte to high
     one) using pointers, then change some byte.
-
+* [lecture11]
+    1. [alignment] Checking the alignment of structures in memory and forcing
+    packed.
+    2. [subscribers_directory] A simple subscriber directory on a static array
+    with the functions of adding, viewing, searching and deleting.
