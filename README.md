@@ -28,3 +28,6 @@ Tasks for Eltex course on Embedded C.
     packed.
     2. [subscribers_directory] A simple subscriber directory on a static array
     with the functions of adding, viewing, searching and deleting.
+* [lecture15]
+    1. Hacking a simple password check, where the insecure finction 'gets' is
+    used (the -fno-stack-protector and -no-pie keys for compilation).
