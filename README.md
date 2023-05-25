@@ -31,3 +31,6 @@ Tasks for Eltex course on Embedded C.
 * [lecture15]
     1. Hacking a simple password check, where the insecure finction 'gets' is
     used (the -fno-stack-protector and -no-pie keys for compilation).
+* [lecture18]
+    1. The subscriber directory as in lecture11 but with dynamic arrays
+    (realocation with one element)
