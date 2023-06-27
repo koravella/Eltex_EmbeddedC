@@ -34,3 +34,9 @@ Tasks for Eltex course on Embedded C.
 * [lecture18]
     1. The subscriber directory as in lecture11 but with dynamic arrays
     (realocation with one element)
+* [lecture24]
+    1. [simple_fork] A very simple test program with fork(), exec(), wait(),
+    atexit().
+    2. [tree_fork] Build a tree of 6 processes (the first process has two child,
+    where one of them has one child, and the second has two child), output pid
+    and ppid for verification.
