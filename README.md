@@ -40,3 +40,9 @@ Tasks for Eltex course on Embedded C.
     2. [tree_fork] Build a tree of 6 processes (the first process has two child,
     where one of them has one child, and the second has two child), output pid
     and ppid for verification.
+    3. [shell] A simple command interpreter that runs the entered commands in a
+    separate process.
+* [lecture25]
+    1. A program for visualizing the effect of a nice change for one of two
+    identical processes. Both processes run on the same core (using
+    sched_setaffinity()).
