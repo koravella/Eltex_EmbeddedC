@@ -1,10 +1,13 @@
 # Eltex_EmbeddedC
+
 Tasks for Eltex course on Embedded C.
 
 ## Description of tasks
-* [lecture1]
-    1. Write a simple HelloWorld program and perform all four stages of
-    compilation (see all intermediate files).
+
+* [[lecture1]](./lecture1)
+    - [[hello]](./lecture1/hello.c) Write a simple HelloWorld program and
+    perform all four stages of compilation (see all intermediate files).
+
 * [lecture5]
     1. A simple example of troubles  with the float type.
 * [lecture8]
@@ -46,3 +49,13 @@ Tasks for Eltex course on Embedded C.
     1. A program for visualizing the effect of a nice change for one of two
     identical processes. Both processes run on the same core (using
     sched_setaffinity()).
+* [lecture26]
+    1. [threads] The program runs the specified number of threads that output
+    their internal number.
+    2. [sum_one, sum_multiple] The first program adds 10^8 units to the global
+    variable. The second program divides this task into 1000 threads and
+    demonstrates the problem of accessing this variable without synchronization
+    primitives.
+* [lecture28]
+    1. The program creates producers and customers in threads that interact with
+    several shops protected by mutexes.
