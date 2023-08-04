@@ -102,3 +102,15 @@ Tasks for Eltex course on Embedded C.
     - [[demand_supply]](./lecture28/demand_supply.c)
     The program creates producers and customers in threads that interact with
     several shops protected by mutexes.
+
+* [[lecture30]](./lecture30)
+
+    - [[pipe]](./lecture30/pipe.c)
+    Parent and child processes exchange messages over unnamed channels.
+
+    - [[mkfifo]](./lecture30/mkfifo.mk)
+    Two programs exchange messages over named channels.
+
+    - [[shell2]](./lecture30/shell2.c)
+    A simple command interpreter with PIPE (|) support that runs the entered
+    commands in a separate process.
