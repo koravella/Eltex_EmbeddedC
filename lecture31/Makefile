@@ -1,16 +1,16 @@
-target := editor
-addit := buffer display
-libs := -lncurses
+TARGET := editor
+ADDIT := buffer display
+LIBS := -lncurses
 
 .PHONY: all clean
 
-all: $(target).out
+all: $(TARGET).out
 
-%.out: $(addsuffix .o, % $(addit))
-	gcc -o $@ $^ $(libs)
+%.out: $(addsuffix .o, % $(ADDIT))
+	gcc -o $@ $^ $(LIBS)
 
 %.o: %.c
 	gcc -c $<
 
 clean:
-	rm $(addsuffix .o, $(target) $(addit))
+	rm $(TARGET).out

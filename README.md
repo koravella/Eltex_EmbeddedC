@@ -1,7 +1,7 @@
 # Eltex_EmbeddedC
 
 Tasks for Eltex course on Embedded C.
-The most interesting ones are highlighted *in italics*.
+The most interesting ones are highlighted ***in bold italics***.
 
 ## Description of tasks
 
@@ -70,8 +70,8 @@ The most interesting ones are highlighted *in italics*.
     verification.
     
     - [[shell]](./lecture24/shell.c)
-    *A simple command interpreter that runs the entered commands in a separate
-    process.*
+    ***A simple command interpreter that runs the entered commands in a separate
+    process.***
 
 * [[lecture25]](./lecture25)
 
@@ -95,24 +95,24 @@ The most interesting ones are highlighted *in italics*.
 * [[lecture28]](./lecture28)
 
     - [[demand_supply]](./lecture28/demand_supply.c)
-    *The program creates producers and customers in threads that interact with
-    several shops protected by mutexes.*
+    ***The program creates producers and customers in threads that interact with
+    several shops protected by mutexes.***
 
 * [[lecture30]](./lecture30)
 
     - [[pipe]](./lecture30/pipe.c)
     Parent and child processes exchange messages over unnamed channels.
 
-    - [[mkfifo]](./lecture30/mkfifo.mk)
+    - [[mkfifo1](./lecture30/mkfifo1.c), [mkfifo2](./lecture30/mkfifo2.c)]
     Two programs exchange messages over named channels.
 
     - [[shell2]](./lecture30/shell2.c)
-    *A simple command interpreter with PIPE (|) support that runs the entered
-    commands in a separate process.*
+    ***A simple command interpreter with PIPE (|) support that runs the entered
+    commands in a separate process.***
 
 * [[lecture31]](./lecture31)
 
     - [[editor]](./lecture31/editor.c)
-    *A simple editor that can open text files, replace some existing characters
+    ***A simple editor that can open text files, replace some existing characters
     in them (without adding new ones), and save changes. Note: does not work
-    correctly with non-printable characters and tabs.*
+    correctly with non-printable characters and tabs.***
