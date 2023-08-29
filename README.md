@@ -116,3 +116,9 @@ The most interesting ones are highlighted ***in bold italics***.
     ***A simple editor that can open text files, replace some existing characters
     in them (without adding new ones), and save changes. Note: does not work
     correctly with non-printable characters and tabs.***
+
+* [[lecture32]](./lecture32)
+
+    - [[commander]](./lecture32/commander.c)
+    ***A simple file manager that allows to navigate through the file system.
+    It also has two displays and allows to switch between them.***
