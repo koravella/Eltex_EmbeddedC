@@ -122,3 +122,19 @@ The most interesting ones are highlighted ***in bold italics***.
     - [[commander]](./lecture32/commander.c)
     ***A simple file manager that allows to navigate through the file system.
     It also has two displays and allows to switch between them.***
+
+* [[lecture33]](./lecture33)
+
+    - [[server_systemv](./lecture33/server_systemv.c),
+       [client_systemv](./lecture33/client_systemv.c)]
+    Server and client programs that exchange messages using SystemV message
+    queues.
+
+    - [[server_posix](./lecture33/server_posix.c),
+       [client_posix](./lecture33/client_posix.c)]
+    Server and client programs that exchange messages using POSIX message
+    queues.
+    
+    - [[server](./lecture33/server.c), [client](./lecture33/client.c)]
+    ***Chat with a shared room for multiple users based on SystemV message
+    queues.***
