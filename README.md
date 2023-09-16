@@ -158,4 +158,11 @@ The most interesting ones are highlighted ***in bold italics***.
     ***Chat with a shared room for multiple users based on POSIX shared
     memory.***
 
+* [[lecture35]](./lecture35)
+
+    - [[disposition]](./lecture35/disposition.c)
+    Setting signal's disposition on signal SIGUSR1.
+
+    - [[eventloop]](./lecture35/eventloop.c)
+    Creating an Eventloop by waiting for the SIGUSR1 signal.
 
