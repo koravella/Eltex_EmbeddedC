@@ -112,6 +112,9 @@ The most interesting ones are highlighted ***in bold italics***.
 
 * [[lecture31]](./lecture31)
 
+    - [[file_operations]](./lecture31/file_operations.c)
+    Creating file and unbuffered write/read operations with it.
+
     - [[editor]](./lecture31/editor.c)
     ***A simple editor that can open text files, replace some existing characters
     in them (without adding new ones), and save changes. Note: does not work
@@ -138,3 +141,21 @@ The most interesting ones are highlighted ***in bold italics***.
     - [[server](./lecture33/server.c), [client](./lecture33/client.c)]
     ***Chat with a shared room for multiple users based on SystemV message
     queues.***
+
+* [[lecture34]](./lecture34)
+
+    - [[server_systemv](./lecture34/server_systemv.c),
+       [client_systemv](./lecture34/client_systemv.c)]
+    Server and client programs that exchange messages using SystemV shared
+    memory and SystemV semaphores.
+
+    - [[server_posix](./lecture34/server_posix.c),
+       [client_posix](./lecture34/client_posix.c)]
+    Server and client programs that exchange messages using POSIX shared
+    memory and POSIX named semaphores.
+     
+    - [[server](./lecture34/server.c), [client](./lecture34/client.c)]
+    ***Chat with a shared room for multiple users based on POSIX shared
+    memory.***
+
+
