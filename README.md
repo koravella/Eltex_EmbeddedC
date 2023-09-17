@@ -166,3 +166,25 @@ The most interesting ones are highlighted ***in bold italics***.
     - [[eventloop]](./lecture35/eventloop.c)
     Creating an Eventloop by waiting for the SIGUSR1 signal.
 
+* [[lecture36]](./lecture36)
+
+    - [[server_local_stream](./lecture36/server_local_stream.c)
+       [client_local_stream](./lecture36/client_local_stream.c)]
+    Server and client exchange messages via sockets with AF_LOCAL and
+    SOCK_STREAM.
+
+    - [[server_local_dgram](./lecture36/server_local_dgram.c)
+       [client_local_dgram](./lecture36/client_local_dgram.c)]
+    Server and client exchange messages via sockets with AF_LOCAL and
+    SOCK_DGRAM.
+
+    - [[server_inet_stream](./lecture36/server_inet_stream.c)
+       [client_inet_stream](./lecture36/client_inet_stream.c)]
+    Server and client exchange messages via sockets with AF_INET and
+    SOCK_STREAM.
+
+    - [[server_inet_dgram](./lecture36/server_inet_dgram.c)
+       [client_inet_dgram](./lecture36/client_inet_dgram.c)]
+    Server and client exchange messages via sockets with AF_INET and
+    SOCK_DGRAM.
+
