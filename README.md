@@ -168,23 +168,48 @@ The most interesting ones are highlighted ***in bold italics***.
 
 * [[lecture36]](./lecture36)
 
-    - [[server_local_stream](./lecture36/server_local_stream.c)
+    - [[server_local_stream](./lecture36/server_local_stream.c),
        [client_local_stream](./lecture36/client_local_stream.c)]
     Server and client exchange messages via sockets with AF_LOCAL and
     SOCK_STREAM.
 
-    - [[server_local_dgram](./lecture36/server_local_dgram.c)
+    - [[server_local_dgram](./lecture36/server_local_dgram.c),
        [client_local_dgram](./lecture36/client_local_dgram.c)]
     Server and client exchange messages via sockets with AF_LOCAL and
     SOCK_DGRAM.
 
-    - [[server_inet_stream](./lecture36/server_inet_stream.c)
+    - [[server_inet_stream](./lecture36/server_inet_stream.c),
        [client_inet_stream](./lecture36/client_inet_stream.c)]
     Server and client exchange messages via sockets with AF_INET and
     SOCK_STREAM.
 
-    - [[server_inet_dgram](./lecture36/server_inet_dgram.c)
+    - [[server_inet_dgram](./lecture36/server_inet_dgram.c),
        [client_inet_dgram](./lecture36/client_inet_dgram.c)]
     Server and client exchange messages via sockets with AF_INET and
     SOCK_DGRAM.
 
+* [[lecture39]](./lecture39)
+
+    - [[server1](./lecture39/server1.c), [client](./lecture39/client.c)]
+    The server that creates threads to process each new client. The client that
+    creates multiple threads accessing the server at the same time.
+
+    - [[server2](./lecture39/server2.c), [client](./lecture39/client.c)]
+    The server that creates a thread pool in advance for processing clients and
+    assigns each new client to a specific thread. The client that creates
+    multiple threads accessing the server at the same time.
+    
+    - [[server3](./lecture39/server3.c), [client](./lecture39/client.c)]
+    The server that creates request queue (with client descriptors) and a thread
+    pool in advance for processing clients. Each thread takes the next client
+    from  queue. The client that creates multiple threads accessing the server
+    at the same time.
+
+    - [[server_multiprotocol](./lecture39/server_multiprotocol.c),
+       [client_tcp](./lecture39/client_tcp.c),
+       [client_udp](./lecture39/client_udp.c)] 
+    The server that can procces TCP and UDP connection simultaneously using
+    poll. Simple TCP and UDP clients that connect to server and receive time.
+
+
+ 
