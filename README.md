@@ -211,5 +211,9 @@ The most interesting ones are highlighted ***in bold italics***.
     The server that can procces TCP and UDP connection simultaneously using
     poll. Simple TCP and UDP clients that connect to server and receive time.
 
+* [[lecture42]](./lecture42)
 
- 
+  - [[server](./lecture42/server.c), [client](./lecture42/client.c)]
+  The server and the client exchange UDP messages, and the client uses a RAW
+  socket and fills in the UDP header.
+
