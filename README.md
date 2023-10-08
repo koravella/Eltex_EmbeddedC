@@ -223,6 +223,13 @@ The most interesting ones are highlighted ***in bold italics***.
   The server and the client exchange UDP messages, and the client uses a RAW
   socket and fills in the UDP header and IP header.
 
+* [[lecture44]](./lecture44)
+
+  - [[server](./lecture44/server.c), [client](./lecture44/client.c),
+     [server_windows.c](./lecture44/server_windows.c)]
+  The server and the client exchange UDP messages, and the client uses a RAW
+  socket and fills in the UDP, IP and Ethernet headers.
+
 
 
 
