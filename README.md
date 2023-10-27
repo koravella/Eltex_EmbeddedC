@@ -230,9 +230,13 @@ The most interesting ones are highlighted ***in bold italics***.
   The server and the client exchange UDP messages, and the client uses a RAW
   socket and fills in the UDP, IP and Ethernet headers.
 
+* [[lecture48]](./lecture48)
 
+  - Screenshots of the kernel build for x86 architecture.
 
+* [[lecture49-50]](./lecture49-40)
 
+  - Screenshots of the kernel build for arm architecture and launch in QEMU.
 
 
 
