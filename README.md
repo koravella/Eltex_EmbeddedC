@@ -238,5 +238,7 @@ The most interesting ones are highlighted ***in bold italics***.
 
   - Screenshots of the kernel build for arm architecture and launch in QEMU.
 
+* [[lecture54]](./lecture54)
 
-
+  - [[test_chardev]](./lecture54/test_chardev.c)
+  Simple module that reads/writes from/to character device.
