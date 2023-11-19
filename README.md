@@ -242,3 +242,12 @@ The most interesting ones are highlighted ***in bold italics***.
 
   - [[test_chardev]](./lecture54/test_chardev.c)
   Simple module that reads/writes from/to character device.
+
+* [[lecture55]](./lecture55)
+
+  - [[test_proc]](./lecture55/test_proc.c)
+  Simple module that reads/writes using /proc.
+  
+  - [[test_sys]](./lecture55/test_sys.c)
+  Simple module that reads/writes using sysfs.
+
